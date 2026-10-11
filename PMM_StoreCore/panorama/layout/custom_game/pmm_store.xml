@@ -1,0 +1,1073 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/csgostyles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/pmm_store.vcss_c" />
+	</styles>
+	<Panel class="st-screen" hittest="false">
+		<Panel id="st-root" class="st-root st-hidden tab-shop view-grid">
+			<Panel class="st-glow" hittest="false" />
+			<Panel class="st-head">
+				<Panel class="st-badge" hittest="false"><Panel class="st-badge-ic" hittest="false" /></Panel>
+				<Panel class="st-ht" hittest="false">
+					<Label class="st-title stratum-bold-tf" text="{s:st_title}" />
+					<Label class="st-nick stratum-medium-tf" text="{s:st_nick}" />
+				</Panel>
+				<Panel class="st-credits" hittest="false"><Panel class="st-coin" hittest="false" /><Label class="st-credits-t stratum-bold-tf" text="{s:st_credits}" /></Panel>
+				<Panel class="st-tabs">
+					<Button id="st-tab-shop" class="st-tab t-shop"><Label class="st-tab-t stratum-bold-tf" text="{s:st_tab_shop}" /></Button>
+					<Button id="st-tab-inv" class="st-tab t-inv"><Label class="st-tab-t stratum-bold-tf" text="{s:st_tab_inv}" /></Button>
+					<Button id="st-tab-set" class="st-tab t-set"><Label class="st-tab-t stratum-bold-tf" text="{s:st_tab_set}" /></Button>
+				</Panel>
+				<Button id="st-close" class="st-x"><Panel class="st-x-ic" hittest="false" /></Button>
+			</Panel>
+			<Panel class="st-body">
+				<Panel class="st-side only-store">
+					<Panel class="st-side-list">
+					<Button id="st-c-0" class="st-cat">
+						<Panel id="st-c-ic-0" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn0}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc0}" />
+					</Button>
+					<Button id="st-c-1" class="st-cat">
+						<Panel id="st-c-ic-1" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn1}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc1}" />
+					</Button>
+					<Button id="st-c-2" class="st-cat">
+						<Panel id="st-c-ic-2" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn2}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc2}" />
+					</Button>
+					<Button id="st-c-3" class="st-cat">
+						<Panel id="st-c-ic-3" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn3}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc3}" />
+					</Button>
+					<Button id="st-c-4" class="st-cat">
+						<Panel id="st-c-ic-4" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn4}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc4}" />
+					</Button>
+					<Button id="st-c-5" class="st-cat">
+						<Panel id="st-c-ic-5" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn5}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc5}" />
+					</Button>
+					<Button id="st-c-6" class="st-cat">
+						<Panel id="st-c-ic-6" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn6}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc6}" />
+					</Button>
+					<Button id="st-c-7" class="st-cat">
+						<Panel id="st-c-ic-7" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn7}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc7}" />
+					</Button>
+					<Button id="st-c-8" class="st-cat">
+						<Panel id="st-c-ic-8" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn8}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc8}" />
+					</Button>
+					<Button id="st-c-9" class="st-cat">
+						<Panel id="st-c-ic-9" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn9}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc9}" />
+					</Button>
+					<Button id="st-c-10" class="st-cat">
+						<Panel id="st-c-ic-10" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn10}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc10}" />
+					</Button>
+					<Button id="st-c-11" class="st-cat">
+						<Panel id="st-c-ic-11" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn11}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc11}" />
+					</Button>
+					<Button id="st-c-12" class="st-cat">
+						<Panel id="st-c-ic-12" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn12}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc12}" />
+					</Button>
+					<Button id="st-c-13" class="st-cat">
+						<Panel id="st-c-ic-13" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn13}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc13}" />
+					</Button>
+					<Button id="st-c-14" class="st-cat">
+						<Panel id="st-c-ic-14" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn14}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc14}" />
+					</Button>
+					<Button id="st-c-15" class="st-cat">
+						<Panel id="st-c-ic-15" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn15}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc15}" />
+					</Button>
+					<Button id="st-c-16" class="st-cat">
+						<Panel id="st-c-ic-16" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn16}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc16}" />
+					</Button>
+					<Button id="st-c-17" class="st-cat">
+						<Panel id="st-c-ic-17" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn17}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc17}" />
+					</Button>
+					<Button id="st-c-18" class="st-cat">
+						<Panel id="st-c-ic-18" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn18}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc18}" />
+					</Button>
+					<Button id="st-c-19" class="st-cat">
+						<Panel id="st-c-ic-19" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn19}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc19}" />
+					</Button>
+					<Button id="st-c-20" class="st-cat">
+						<Panel id="st-c-ic-20" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn20}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc20}" />
+					</Button>
+					<Button id="st-c-21" class="st-cat">
+						<Panel id="st-c-ic-21" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn21}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc21}" />
+					</Button>
+					<Button id="st-c-22" class="st-cat">
+						<Panel id="st-c-ic-22" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn22}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc22}" />
+					</Button>
+					<Button id="st-c-23" class="st-cat">
+						<Panel id="st-c-ic-23" class="st-cat-ic ic-star" hittest="false" />
+						<Label class="st-cat-t stratum-bold-tf" text="{s:scn23}" />
+						<Label class="st-cat-n stratum-medium-tf" text="{s:scc23}" />
+					</Button>
+					</Panel>
+				</Panel>
+				<Panel class="st-main only-store">
+					<Panel class="st-crumb">
+						<Button id="st-back" class="st-back"><Panel class="st-back-ic" hittest="false" /><Label class="st-back-t stratum-bold-tf" text="{s:st_back}" /></Button>
+						<Label class="st-crumb-t stratum-bold-tf" text="{s:st_crumb}" />
+						<Label class="st-crumb-n stratum-medium-tf" text="{s:st_count}" />
+					</Panel>
+					<Panel class="st-grid only-grid">
+						<Panel id="st-gr-0" class="st-grow">
+							<Button id="st-i-0" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-0" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin0}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis0}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip0}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih0}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-1" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-1" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin1}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis1}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip1}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih1}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-2" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-2" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin2}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis2}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip2}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih2}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-1" class="st-grow">
+							<Button id="st-i-3" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-3" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin3}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis3}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip3}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih3}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-4" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-4" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin4}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis4}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip4}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih4}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-5" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-5" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin5}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis5}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip5}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih5}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-2" class="st-grow">
+							<Button id="st-i-6" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-6" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin6}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis6}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip6}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih6}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-7" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-7" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin7}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis7}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip7}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih7}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-8" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-8" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin8}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis8}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip8}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih8}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-3" class="st-grow">
+							<Button id="st-i-9" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-9" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin9}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis9}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip9}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih9}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-10" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-10" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin10}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis10}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip10}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih10}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-11" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-11" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin11}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis11}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip11}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih11}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-4" class="st-grow">
+							<Button id="st-i-12" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-12" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin12}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis12}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip12}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih12}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-13" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-13" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin13}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis13}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip13}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih13}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-14" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-14" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin14}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis14}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip14}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih14}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-5" class="st-grow">
+							<Button id="st-i-15" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-15" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin15}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis15}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip15}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih15}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-16" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-16" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin16}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis16}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip16}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih16}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-17" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-17" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin17}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis17}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip17}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih17}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-6" class="st-grow">
+							<Button id="st-i-18" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-18" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin18}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis18}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip18}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih18}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-19" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-19" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin19}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis19}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip19}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih19}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-20" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-20" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin20}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis20}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip20}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih20}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-7" class="st-grow">
+							<Button id="st-i-21" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-21" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin21}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis21}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip21}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih21}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-22" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-22" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin22}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis22}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip22}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih22}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-23" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-23" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin23}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis23}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip23}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih23}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-8" class="st-grow">
+							<Button id="st-i-24" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-24" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin24}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis24}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip24}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih24}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-25" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-25" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin25}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis25}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip25}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih25}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-26" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-26" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin26}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis26}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip26}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih26}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-9" class="st-grow">
+							<Button id="st-i-27" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-27" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin27}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis27}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip27}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih27}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-28" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-28" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin28}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis28}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip28}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih28}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-29" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-29" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin29}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis29}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip29}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih29}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-10" class="st-grow">
+							<Button id="st-i-30" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-30" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin30}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis30}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip30}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih30}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-31" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-31" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin31}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis31}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip31}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih31}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-32" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-32" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin32}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis32}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip32}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih32}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-11" class="st-grow">
+							<Button id="st-i-33" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-33" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin33}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis33}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip33}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih33}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-34" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-34" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin34}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis34}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip34}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih34}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-35" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-35" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin35}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis35}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip35}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih35}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-12" class="st-grow">
+							<Button id="st-i-36" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-36" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin36}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis36}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip36}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih36}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-37" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-37" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin37}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis37}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip37}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih37}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-38" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-38" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin38}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis38}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip38}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih38}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-13" class="st-grow">
+							<Button id="st-i-39" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-39" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin39}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis39}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip39}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih39}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-40" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-40" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin40}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis40}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip40}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih40}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-41" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-41" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin41}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis41}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip41}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih41}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-14" class="st-grow">
+							<Button id="st-i-42" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-42" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin42}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis42}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip42}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih42}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-43" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-43" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin43}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis43}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip43}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih43}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-44" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-44" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin44}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis44}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip44}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih44}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-15" class="st-grow">
+							<Button id="st-i-45" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-45" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin45}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis45}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip45}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih45}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-46" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-46" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin46}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis46}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip46}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih46}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-47" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-47" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin47}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis47}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip47}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih47}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-16" class="st-grow">
+							<Button id="st-i-48" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-48" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin48}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis48}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip48}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih48}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-49" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-49" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin49}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis49}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip49}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih49}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-50" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-50" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin50}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis50}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip50}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih50}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-17" class="st-grow">
+							<Button id="st-i-51" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-51" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin51}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis51}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip51}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih51}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-52" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-52" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin52}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis52}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip52}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih52}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-53" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-53" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin53}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis53}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip53}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih53}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-18" class="st-grow">
+							<Button id="st-i-54" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-54" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin54}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis54}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip54}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih54}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-55" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-55" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin55}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis55}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip55}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih55}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-56" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-56" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin56}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis56}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip56}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih56}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Panel id="st-gr-19" class="st-grow">
+							<Button id="st-i-57" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-57" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin57}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis57}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip57}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih57}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-58" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-58" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin58}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis58}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip58}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih58}" />
+								</Panel>
+							</Button>
+							<Button id="st-i-59" class="st-card p-price">
+								<Panel class="st-card-top" hittest="false">
+									<Panel class="st-card-icbox" hittest="false"><Panel id="st-i-ic-59" class="st-card-ic ic-star" hittest="false" /></Panel>
+									<Panel class="st-card-text" hittest="false">
+										<Label class="st-card-name stratum-bold-tf" text="{s:sin59}" />
+										<Label class="st-card-sub stratum-medium-tf" text="{s:sis59}" />
+									</Panel>
+								</Panel>
+								<Panel class="st-card-bot" hittest="false">
+									<Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:sip59}" /></Panel>
+									<Label class="st-card-hint stratum-medium-tf" text="{s:sih59}" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Label class="st-empty stratum-medium-tf" text="{s:st_empty}" />
+					</Panel>
+					<Panel class="st-item only-item">
+						<Panel class="st-it-top" hittest="false">
+							<Panel class="st-it-icbox" hittest="false"><Panel id="st-it-ic" class="st-it-ic ic-star" hittest="false" /></Panel>
+							<Panel class="st-it-text" hittest="false">
+								<Label class="st-it-name stratum-bold-tf" text="{s:st_it_name}" />
+								<Label class="st-it-sub stratum-medium-tf" text="{s:st_it_sub}" />
+								<Panel id="st-it-pill" class="st-it-pillrow p-price" hittest="false"><Panel class="st-pill" hittest="false"><Label class="st-pill-t stratum-bold-tf" text="{s:st_it_state}" /></Panel></Panel>
+							</Panel>
+						</Panel>
+						<Panel class="st-it-info" hittest="false">
+							<Panel id="st-it-box-0" class="st-it-box" hittest="false"><Label class="st-it-l stratum-medium-tf" text="{s:st_it_l0}" /><Label class="st-it-v stratum-bold-tf" text="{s:st_it_v0}" /></Panel>
+							<Panel id="st-it-box-1" class="st-it-box" hittest="false"><Label class="st-it-l stratum-medium-tf" text="{s:st_it_l1}" /><Label class="st-it-v stratum-bold-tf" text="{s:st_it_v1}" /></Panel>
+							<Panel id="st-it-box-2" class="st-it-box" hittest="false"><Label class="st-it-l stratum-medium-tf" text="{s:st_it_l2}" /><Label class="st-it-v stratum-bold-tf" text="{s:st_it_v2}" /></Panel>
+						</Panel>
+						<Label class="st-it-note stratum-medium-tf" text="{s:st_it_note}" />
+						<Panel class="st-it-acts">
+							<Button id="st-it-main" class="st-btn st-btn-main"><Label class="st-btn-t stratum-bold-tf" text="{s:st_it_main}" /></Button>
+							<Button id="st-it-sell" class="st-btn st-btn-sec"><Label class="st-btn-t stratum-bold-tf" text="{s:st_it_sell}" /></Button>
+							<Button id="st-it-insp" class="st-btn st-btn-sec"><Panel class="st-btn-ic" hittest="false" /><Label class="st-btn-t stratum-bold-tf" text="{s:st_it_insp}" /></Button>
+						</Panel>
+					</Panel>
+				</Panel>
+				<Panel class="st-set only-set">
+					<Panel class="st-set-col">
+						<Label class="st-set-h stratum-bold-tf" text="{s:st_set_player}" />
+						<Button id="st-s-trails" class="st-row st-trails">
+							<Panel class="st-row-text" hittest="false">
+								<Label class="st-row-name stratum-bold-tf" text="{s:st_trails_name}" />
+								<Label class="st-row-desc stratum-medium-tf" text="{s:st_trails_desc}" />
+								<Label class="st-row-alias stratum-medium-tf" text="{s:st_trails_alias}" />
+							</Panel>
+							<Panel class="st-sw" hittest="false"><Panel class="st-knob" hittest="false" /></Panel>
+						</Button>
+						<Label class="st-set-none stratum-medium-tf" text="{s:st_set_none}" />
+						<Label class="st-set-foot stratum-medium-tf" text="{s:st_set_foot}" />
+					</Panel>
+					<Panel class="st-gift">
+						<Panel class="st-gift-head" hittest="false">
+							<Panel class="st-gift-ic" hittest="false" />
+							<Panel class="st-row-text" hittest="false">
+								<Label class="st-row-name stratum-bold-tf" text="{s:st_gift_name}" />
+								<Label class="st-row-alias stratum-medium-tf" text="{s:st_gift_alias}" />
+							</Panel>
+						</Panel>
+						<Label class="st-set-h stratum-bold-tf" text="{s:st_gift_who}" />
+						<Panel class="st-glist">
+						<Panel id="st-ggr-0" class="st-ggrow">
+							<Button id="st-g-0" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn0}" /></Button>
+							<Button id="st-g-1" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn1}" /></Button>
+						</Panel>
+						<Panel id="st-ggr-1" class="st-ggrow">
+							<Button id="st-g-2" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn2}" /></Button>
+							<Button id="st-g-3" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn3}" /></Button>
+						</Panel>
+						<Panel id="st-ggr-2" class="st-ggrow">
+							<Button id="st-g-4" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn4}" /></Button>
+							<Button id="st-g-5" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn5}" /></Button>
+						</Panel>
+						<Panel id="st-ggr-3" class="st-ggrow">
+							<Button id="st-g-6" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn6}" /></Button>
+							<Button id="st-g-7" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn7}" /></Button>
+						</Panel>
+						<Panel id="st-ggr-4" class="st-ggrow">
+							<Button id="st-g-8" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn8}" /></Button>
+							<Button id="st-g-9" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn9}" /></Button>
+						</Panel>
+						<Panel id="st-ggr-5" class="st-ggrow">
+							<Button id="st-g-10" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn10}" /></Button>
+							<Button id="st-g-11" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn11}" /></Button>
+						</Panel>
+						<Panel id="st-ggr-6" class="st-ggrow">
+							<Button id="st-g-12" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn12}" /></Button>
+							<Button id="st-g-13" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn13}" /></Button>
+						</Panel>
+						<Panel id="st-ggr-7" class="st-ggrow">
+							<Button id="st-g-14" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn14}" /></Button>
+							<Button id="st-g-15" class="st-chip st-gp"><Label class="st-chip-t stratum-bold-tf" text="{s:sgn15}" /></Button>
+						</Panel>
+						</Panel>
+						<Label class="st-gift-empty stratum-medium-tf" text="{s:st_gift_empty}" />
+						<Label class="st-set-h stratum-bold-tf" text="{s:st_gift_how}" />
+						<Panel class="st-amrow">
+							<Button id="st-a-0" class="st-chip st-am"><Label class="st-chip-t stratum-bold-tf" text="{s:sga0}" /></Button>
+							<Button id="st-a-1" class="st-chip st-am"><Label class="st-chip-t stratum-bold-tf" text="{s:sga1}" /></Button>
+							<Button id="st-a-2" class="st-chip st-am"><Label class="st-chip-t stratum-bold-tf" text="{s:sga2}" /></Button>
+							<Button id="st-a-3" class="st-chip st-am"><Label class="st-chip-t stratum-bold-tf" text="{s:sga3}" /></Button>
+						</Panel>
+						<Button id="st-gsend" class="st-btn st-btn-main st-gsend"><Label class="st-btn-t stratum-bold-tf" text="{s:st_gsend}" /></Button>
+					</Panel>
+				</Panel>
+			</Panel>
+			<Panel class="st-foot">
+				<Panel id="st-toast" class="st-toast" hittest="false"><Panel class="st-toast-ic" hittest="false" /><Label class="st-toast-t stratum-medium-tf" text="{s:st_toast}" /></Panel>
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

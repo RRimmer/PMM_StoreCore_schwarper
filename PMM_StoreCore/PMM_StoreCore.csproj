@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>PMM_StoreCore</AssemblyName>
+        <RootNamespace>PMM_StoreCore</RootNamespace>
+        <Version>0.1.0</Version>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CounterStrikeSharp.API" Version="1.0.376">
+            <ExcludeAssets>runtime</ExcludeAssets>
+        </PackageReference>
+        <!-- MenuManagerApi.dll must live only in shared/MenuManagerApi -->
+        <ProjectReference Include="..\MenuManagerApi\MenuManagerApi.csproj">
+            <Private>false</Private>
+        </ProjectReference>
+        <!-- Lib.Harmony 2.4.2 (net10.0), same build as PMM_VIPCore / PMM_GG1MapChooser.
+             Not copied next to the plugin dll: it goes to harmony\ and is loaded into the default context -->
+        <Reference Include="0Harmony">
+            <HintPath>lib\0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <!-- StoreApi.dll of cs2-store v33 (shared/StoreApi on the server). Store internals are read by reflection. -->
+        <Reference Include="StoreApi">
+            <HintPath>lib\StoreApi.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="lib\0Harmony.dll" Link="harmony\0Harmony.dll" CopyToOutputDirectory="PreserveNewest"/>
+    </ItemGroup>
+
+</Project>
